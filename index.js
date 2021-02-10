@@ -1,3 +1,4 @@
 new fullpage('#fullPage',{
-	autoScrolling: true
+	autoScrolling: true,
+	navigation: true
 })
