@@ -18,12 +18,14 @@ svg {
 
 h1 {
 	font-size: 64px;
-	color: #002A49;
+	color: white;
+	text-decoration: underline;
 }
 
 h2 {
 	font-size: 36px;
 	color: #103A59;
+	margin-bottom: 1rem;
 }
 
 h3 {
@@ -40,9 +42,6 @@ section {
 	justify-content: space-between;
 }
 
-.landing h2 {
-	margin-bottom: 1rem;
-}
 
 .contact img {
 	width: 50%;
