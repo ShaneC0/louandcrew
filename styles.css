@@ -34,7 +34,7 @@ h3 {
 
 }
 
-section {
+.container {
 	height: 100vh;
 	margin: 0 6rem 0 6rem;
 	display: flex;
@@ -43,6 +43,6 @@ section {
 }
 
 
-.contact img {
+img {
 	width: 50%;
 }
