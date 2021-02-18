@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
 	margin: 0;
@@ -24,15 +23,20 @@ h1 {
 
 h2 {
 	font-size: 36px;
-	color: #f2f2f2;
+	color: #e2e2e2;
 	margin-bottom: 1rem;
 }
 
 h3 {
 	font-size: 24px;
-	color: #f2f2f2;
+	color: #e2e2e2;
 	margin-bottom: 0.5rem;
 
+}
+
+p {
+
+	color: #f2f2f2;
 }
 
 .container {
@@ -44,6 +48,44 @@ h3 {
 }
 
 
+
+
 img {
+	width: 60%;
+}
+
+.about {
+	width: 36%;
+}
+
+.feedback {
+	display: flex;
+	flex-direction: column;
 	width: 50%;
+}
+
+.review {
+	padding: 2%;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: flex;
+	justify-content: space-between;
+	background: #f6ab40;
+	margin: 2vh 0 2vh 0;
+}
+
+.review-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.review h2 {
+	text-decoration: underline;
+}
+
+.review img {
+	width: 32%;
+	border-radius: 6px;
 }
